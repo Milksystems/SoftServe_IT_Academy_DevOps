@@ -11,3 +11,8 @@ parameters of the command. What system file does it change *?
 
 3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
 
+![image](https://user-images.githubusercontent.com/97533533/162586423-dcecdb6f-da50-4466-8351-f5c595fb468b.png)
+
+Also we can use next commands for describe users in system - "w", "who" and "whoami".
+
+![image](https://user-images.githubusercontent.com/97533533/162586471-a43739cb-79a7-4a40-8e27-26d7f08cc262.png)
