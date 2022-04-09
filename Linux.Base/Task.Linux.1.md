@@ -21,3 +21,11 @@ Also we can use next commands for describe users in system - "w", "who" and "who
 
 ![image](https://user-images.githubusercontent.com/97533533/162586556-a165c558-fb14-4e14-b3ba-87559bd05ae3.png)
 
+5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples.
+
+![image](https://user-images.githubusercontent.com/97533533/162586637-d0df86ef-ab84-4289-9480-f1b820ec06ed.png)
+
+![Uploading image.png…]()
+
+6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.
+
