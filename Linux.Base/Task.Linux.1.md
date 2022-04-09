@@ -16,3 +16,8 @@ parameters of the command. What system file does it change *?
 Also we can use next commands for describe users in system - "w", "who" and "whoami".
 
 ![image](https://user-images.githubusercontent.com/97533533/162586471-a43739cb-79a7-4a40-8e27-26d7f08cc262.png)
+
+4) Change personal information about yourself.
+
+![image](https://user-images.githubusercontent.com/97533533/162586556-a165c558-fb14-4e14-b3ba-87559bd05ae3.png)
+
