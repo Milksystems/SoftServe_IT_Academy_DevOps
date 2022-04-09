@@ -29,3 +29,33 @@ Also we can use next commands for describe users in system - "w", "who" and "who
 
 6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.
 
+![image](https://user-images.githubusercontent.com/97533533/162586844-26490651-624b-40de-94b9-34cb54a51f03.png)
+
+7) Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command.
+
+![image](https://user-images.githubusercontent.com/97533533/162586900-757a7a37-9649-4e5b-8325-09e53859b9d0.png)
+
+8) List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls
+command.
+
+![image](https://user-images.githubusercontent.com/97533533/162587007-fe3d8154-cf25-4cba-be41-4c7e3e40af5a.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
