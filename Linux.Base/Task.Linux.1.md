@@ -38,12 +38,39 @@ Also we can use next commands for describe users in system - "w", "who" and "who
 8) List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls
 command.
 
-![image](https://user-images.githubusercontent.com/97533533/162587007-fe3d8154-cf25-4cba-be41-4c7e3e40af5a.png)
+![image](https://user-images.githubusercontent.com/97533533/162587106-372feb3b-d910-4670-8699-1f28d160f8a6.png)
 
+This command help me list all files in my home directory. Key -a - helpful for show all files and directories, key -I - shows all as one list with columns, key -h - allows to see information on a human-readable format, key --group-directories-first - allows to sort listing and seeing group of directories before files.
 
+Task1.Part2
 
+1) Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a
+specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.
 
+![image](https://user-images.githubusercontent.com/97533533/162587206-8f1b7316-e45f-432d-82c4-bf28b633ceac.png)
 
+2) What command can be used to determine the type of file (for example, text or binary)? Give an example.
+
+![image](https://user-images.githubusercontent.com/97533533/162587266-32646c44-1a27-4eaf-bd62-73a23c6c333a.png)
+
+3) Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem?
+
+![image](https://user-images.githubusercontent.com/97533533/162587355-3fca808f-ce59-4d95-a9f1-ba41e31e4a5d.png)
+
+4) Become familiar with the various options for the ls command. Give examples of listing directories using different keys. Explain the information displayed on
+the terminal using the -l and -a switches.
+
+I amswered this question in point 8 of part 1 of this Task.
+
+5) Perform the following sequence of operations:
+- create a subdirectory in the home directory;
+- in this subdirectory create a file containing information about directories
+located in the root directory (using I/O redirection operations);
+- view the created file;
+- copy the created file to your home directory using relative and absolute
+addressing.
+- delete the previously created subdirectory with the file requesting removal;
+- delete the file copied to the home directory.
 
 
 
