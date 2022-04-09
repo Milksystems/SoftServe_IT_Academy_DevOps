@@ -25,7 +25,7 @@ Also we can use next commands for describe users in system - "w", "who" and "who
 
 ![image](https://user-images.githubusercontent.com/97533533/162586637-d0df86ef-ab84-4289-9480-f1b820ec06ed.png)
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/97533533/162586751-411e59cc-5f1b-48a1-b1dc-57c5488106b2.png)
 
 6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.
 
