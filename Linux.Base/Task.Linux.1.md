@@ -9,3 +9,5 @@ parameters of the command. What system file does it change *?
 
 ![image](https://user-images.githubusercontent.com/97533533/161799882-67ba8ad7-3d1d-405f-b6c7-bc6db69748e7.png)
 
+3) Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
+
