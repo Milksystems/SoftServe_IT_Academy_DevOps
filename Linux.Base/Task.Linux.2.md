@@ -70,6 +70,37 @@ creating a user and assign multiple groups:
 
 sudo usermod -l test1 test
 
+7) What is skell_dir? What is its structure?
+
+Directory /etc/skel/ (skel is derived from the “skeleton”) is used to initiate home directory when a user is first created. A sample layout of “skeleton” user files is as shown below:
+
+![image](https://user-images.githubusercontent.com/97533533/162632526-f7a9248b-878d-4265-99e7-9adbaf4b79f5.png)
+
+8) How to remove a user from the system (including his mailbox)?
+
+sudo userdel -r test
+
+9) What commands and keys should be used to lock and unlock a user account?
+
+First way using passwd
+
+   to lock:
+   
+   sudo passwd -l test
+   
+   to unlock:
+   
+   sudo passwd -u test
+
+Second way using usermod
+   
+   to lock:
+   
+   sudo usermod -L test
+   
+   to unlock: 
+   
+   sudo usermod -U test
 
 
 
