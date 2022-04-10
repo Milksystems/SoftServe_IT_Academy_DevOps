@@ -39,31 +39,36 @@ In addition to the user ID, the account has a group ID associated with it. User 
 5) What are the commands for adding a user to the system? What are the basic parameters required to create a user?
 
 new user:
+
 /sudo useradd test
 
 create him a password:
 
-sudo passwd test
+/sudo passwd test
 
 create home directory:
 
-sudo useradd -m test
+/sudo useradd -m test
 
 creating a user with specific home directory:
 
-sudo useradd -m -d /path_name test
+/sudo useradd -m -d /path_name test
 
 creating a user with specific User ID:
 
-sudo useradd -u 1500 test
+/sudo useradd -u 1500 test
 
 creating a user with an expiry date:
 
-sudo useradd -e 2022-05-04 test
+/sudo useradd -e 2022-05-04 test
 
 creating a user and assign multiple groups:
 
-sudo useradd -g users -G wheel,developers test
+/sudo useradd -g users -G wheel,developers test
+
+6) How do I change the name (account name) of an existing user?
+
+
 
 
 
