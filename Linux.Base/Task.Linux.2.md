@@ -26,3 +26,72 @@ The id command in Linux will display the UID, GID and groups your current user b
 
 3) What is GID? How to define it?
 
+Group ID (GID)
+
+In addition to the user ID, the account has a group ID associated with it. User groups are used to organize access of several users to some resources. A group, like a user, has a name and an identification number - GID (Group ID).
+
+![image](https://user-images.githubusercontent.com/97533533/162631883-b318e9b7-9e6f-4c05-98c3-0ac2ce5e8ae6.png)
+
+4) How to determine belonging of user to the specific group?
+
+![image](https://user-images.githubusercontent.com/97533533/162631917-787bf0a2-c6b5-4d31-9844-178618e521c2.png)
+
+5) What are the commands for adding a user to the system? What are the basic parameters required to create a user?
+
+new user:
+
+sudo useradd test
+
+create him a password:
+
+sudo passwd test
+
+create home directory:
+
+sudo useradd -m test
+
+creating a user with specific home directory:
+
+sudo useradd -m -d /path_name test
+
+creating a user with specific User ID:
+
+sudo useradd -u 1500 test
+
+creating a user with an expiry date:
+
+sudo useradd -e 2022-05-04 test
+
+creating a user and assign multiple groups:
+
+sudo useradd -g users -G wheel,developers test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
