@@ -88,6 +88,43 @@ addressing.
 - rename the soft link file to symb_lnk_labwork2 file;
 - then delete the labwork2. What changes have occurred and why?
 
+![image](https://user-images.githubusercontent.com/97533533/162628179-55ae0ffd-9847-48d6-82be-063cd17daa59.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162628220-ef540a35-1c5a-4236-9947-b80b1e2fe07d.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162628232-01f2eb61-fd43-45f2-b96b-4ffb0fa26817.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162628292-027d0fbe-4e05-4110-a9f3-1fc12f576b0a.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162628327-fd2a7b56-11b8-4309-ad7c-dee91f438270.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162628399-f5347ebc-09da-4e73-93ec-974efe0e303c.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
