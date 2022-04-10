@@ -84,37 +84,63 @@ sudo userdel -r test
 
 First way using passwd
 
-   to lock:
+to lock:
    
-   sudo passwd -l test
+/sudo passwd -l test
    
-   to unlock:
+to unlock:
    
-   sudo passwd -u test
+/sudo passwd -u test
 
 Second way using usermod
    
-   to lock:
+to lock:
    
-   sudo usermod -L test
+/sudo usermod -L test
    
-   to unlock: 
+to unlock: 
    
-   sudo usermod -U test
+/sudo usermod -U test
 
+10) How to remove a user's password and provide him with a password-free login for subsequent password change?
 
+test ALL=(ALL) NOPASSWD:ALL
 
+11) Display the extended format of information about the directory, tell about the information columns displayed on the terminal.
 
+![image](https://user-images.githubusercontent.com/97533533/162632886-34a9d95f-c96c-4a68-95ea-46290fc7009e.png)
 
+Displays permissions, links, owner, group, size, time, name.
 
+12) What access rights exist and for whom (i. e., describe the main roles)? Briefly describe the acronym for access rights.
 
+![image](https://user-images.githubusercontent.com/97533533/162632959-0acb485f-3411-4b10-9279-3d9169813c1c.png)
 
+13) What is the sequence of defining the relationship between the file and the user?
 
+By default, the owner of a file is the user who created it and the group assigned to a file is the primary group of the user.
 
+14) What commands are used to change the owner of a file (directory), as well as the mode of access to the file? Give examples, demonstrate on the terminal.
 
+sudo chown root hard_link_labwork2
 
+15) What is an example of octal representation of access rights? Describe the umask command.
 
+When a file is created, the permission flags are set according to the file mode creation mask, which can be set using the umask command. The file mode creation mask (sometimes referred to as "the umask") is a three-digit octal value whose nine bits correspond to fields 2-10 of the permission flags.
 
+16) Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes.
+
+The sticky bit was initially introduced to ‘stick’ an executable program’s text segment in the swap space even after the program has completed execution, to speed up the subsequent runs of the same program. However, these days the sticky bit means something entirely different.
+
+When a directory has the sticky bit set, its files can be deleted or renamed only by the file owner, directory owner and the root user.
+
+17) What file attributes should be present in the command script?
+
+![image](https://user-images.githubusercontent.com/97533533/162633256-2f76c65e-699f-416a-ae16-3e056aa5ce07.png)
+
+The files and directories can have following attributes:
+
+![image](https://user-images.githubusercontent.com/97533533/162633264-e63e48bc-fd73-4b4f-96ec-4c6f4672481e.png)
 
 
 
