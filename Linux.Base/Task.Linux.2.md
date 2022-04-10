@@ -15,7 +15,9 @@ Pseudo users are related to system and program services Any Linux system has the
 UID stands for user identifier. A UID is a number assigned to each Linux user. It is the user’s representation in the Linux kernel. The UID is used for identifying the user within the system and for determining which system resources the user can access.
 
 Superuser (root uid = 0)
+
 General user (UID 500-60000)
+
 Pseudo user (UID 1-499)
 
 The id command in Linux will display the UID, GID and groups your current user belongs to
