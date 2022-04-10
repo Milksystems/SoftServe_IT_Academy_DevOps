@@ -134,6 +134,14 @@ Hardlink - it's a link, what specify path not to the file, but to the recording 
 
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint: You must use stream redirection operations.
 
+![image](https://user-images.githubusercontent.com/97533533/162630024-7cdd4868-ceca-4c6f-8479-c06379cf06df.png)
+
+13) What are the types of devices and how to determine the type of device? Give examples.
+
+![image](https://user-images.githubusercontent.com/97533533/162630362-73b88e38-43a7-4fd0-9ab5-a505f3cd960d.png)
+
+14) How to determine the type of file in the system, what types of files are there?
+
 
 
 
