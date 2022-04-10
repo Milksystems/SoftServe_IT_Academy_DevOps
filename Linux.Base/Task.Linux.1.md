@@ -110,13 +110,29 @@ These are the commands I used:
 
 Hardlink - it's a link, what specify path not to the file, but to the recording itself on a filesystem, hardlinks works only in one partition and don't be used in a network path or from another drive, hardlinks works only with files and not work with folders. Symbolic link or Symlink - it's like a windows shortcat file (.Ink), she only specify path to file, but she works with network paths, different partitions and folders. How described in our example - when file was changed, text in hard and soft links equal text in originsl file, but when we delete original file - hardlink is working (because he know where file in harddrive) and symlink is not works, because she losses the file, what specified in she's path.
 
+7) Using the locate utility, find all files that contain the squid and traceroute sequence.
 
+![image](https://user-images.githubusercontent.com/97533533/162629344-e35a671d-fc6d-432b-9cf4-01f15471f6cf.png)
 
+8) Determine which partitions are mounted in the system, as well as the types of these partitions.
 
+![image](https://user-images.githubusercontent.com/97533533/162629389-e045d810-8451-458a-85e1-fdc4a87a8b63.png)
 
+9) Count the number of lines containing a given sequence of characters in a given file.
 
+![image](https://user-images.githubusercontent.com/97533533/162629498-32b6486f-03b7-498e-a865-cc0ef35c6fd6.png)
 
+10) Using the find command, find all files in the /etc directory containing the host character sequence.
 
+![image](https://user-images.githubusercontent.com/97533533/162629652-2790a89c-f522-4599-babb-cdd4601f233c.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162629700-2cc2f868-9b4d-4cf3-b623-4e258a5f4bb5.png)
+
+11) List all objects in /etc that contain the ss character sequence. How can I duplicate a similar command using a bunch of grep?
+
+![image](https://user-images.githubusercontent.com/97533533/162629823-9d54e86e-b63a-4371-a4ce-43d614df6e66.png)
+
+12) Organize a screen-by-screen print of the contents of the /etc directory. Hint: You must use stream redirection operations.
 
 
 
