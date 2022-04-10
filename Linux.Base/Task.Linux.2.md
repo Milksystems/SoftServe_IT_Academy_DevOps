@@ -68,7 +68,7 @@ creating a user and assign multiple groups:
 
 6) How do I change the name (account name) of an existing user?
 
-
+sudo usermod -l test1 test
 
 
 
