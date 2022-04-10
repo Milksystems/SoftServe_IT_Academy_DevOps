@@ -39,8 +39,7 @@ In addition to the user ID, the account has a group ID associated with it. User 
 5) What are the commands for adding a user to the system? What are the basic parameters required to create a user?
 
 new user:
-
-sudo useradd test
+/sudo useradd test
 
 create him a password:
 
