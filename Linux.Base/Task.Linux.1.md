@@ -142,31 +142,8 @@ Hardlink - it's a link, what specify path not to the file, but to the recording 
 
 14) How to determine the type of file in the system, what types of files are there?
 
+Linux contains 7 types of files: Regular - denoted by symbol "-" Directory - denoted by symbol "d" Link File - denoted by symbol "I" Character DEvice File - denoted by symbol "c" Local Socket File - denoted by symbol "s" Named Pipe File - denoted by symbol "p" Block Device File - denoted by symbol "b".
 
+15) List the first 5 directory files that were recently accessed in the /etc directory.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/97533533/162631488-2526a9f8-8a26-4785-9144-635713cf46fe.png)
