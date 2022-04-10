@@ -72,6 +72,11 @@ addressing.
 - delete the previously created subdirectory with the file requesting removal;
 - delete the file copied to the home directory.
 
+![image](https://user-images.githubusercontent.com/97533533/162627441-acadb152-9b90-4b07-a949-ead20ffe6115.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162627643-36ada535-a20a-44c5-b643-75db2a3f397c.png)
+
+
 
 
 
