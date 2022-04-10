@@ -76,7 +76,17 @@ addressing.
 
 ![image](https://user-images.githubusercontent.com/97533533/162627643-36ada535-a20a-44c5-b643-75db2a3f397c.png)
 
+![image](https://user-images.githubusercontent.com/97533533/162627858-9f3a089a-bbbf-4d5e-b6b3-80ce9cb3e754.png)
 
+6) Perform the following sequence of operations:
+- create a subdirectory test in the home directory;
+- copy the .bash_history file to this directory while changing its name to labwork2;
+- create a hard and soft link to the labwork2 file in the test subdirectory;
+- how to define soft and hard link, what do these concepts;
+- change the data by opening a symbolic link. What changes will happen and why?
+- rename the hard link file to hard_lnk_labwork2;
+- rename the soft link file to symb_lnk_labwork2 file;
+- then delete the labwork2. What changes have occurred and why?
 
 
 
