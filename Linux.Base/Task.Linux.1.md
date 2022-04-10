@@ -100,7 +100,15 @@ addressing.
 
 ![image](https://user-images.githubusercontent.com/97533533/162628399-f5347ebc-09da-4e73-93ec-974efe0e303c.png)
 
+![image](https://user-images.githubusercontent.com/97533533/162628857-a221e1ff-978d-4108-8ac3-b8271fc9f719.png)
 
+![image](https://user-images.githubusercontent.com/97533533/162628873-8483a271-d187-4b8a-9159-46a53570d877.png)
+
+These are the commands I used:
+
+![image](https://user-images.githubusercontent.com/97533533/162629224-92772019-a7bb-45b4-a50f-d103c77f468e.png)
+
+Hardlink - it's a link, what specify path not to the file, but to the recording itself on a filesystem, hardlinks works only in one partition and don't be used in a network path or from another drive, hardlinks works only with files and not work with folders. Symbolic link or Symlink - it's like a windows shortcat file (.Ink), she only specify path to file, but she works with network paths, different partitions and folders. How described in our example - when file was changed, text in hard and soft links equal text in originsl file, but when we delete original file - hardlink is working (because he know where file in harddrive) and symlink is not works, because she losses the file, what specified in she's path.
 
 
 
