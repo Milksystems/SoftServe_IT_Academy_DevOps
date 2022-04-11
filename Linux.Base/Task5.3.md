@@ -64,11 +64,56 @@ How we see in manual for ps (man ps), for viewing processes info we can use pgre
 
 ![image](https://user-images.githubusercontent.com/97533533/162703016-8fa8f27f-58d6-4a54-9f59-ac23eb371788.png)
 
+11. Display the processes of the specific user using the top command.
 
+I use command TOP with "-u" key:
 
+![image](https://user-images.githubusercontent.com/97533533/162703372-c6111636-678d-4414-b169-4df0edc5693e.png)
 
+12. What interactive commands can be used to control the top command? Give a couple of examples.
 
+![image](https://user-images.githubusercontent.com/97533533/162703549-eaa6eab9-ff91-4633-977a-5ee11762e790.png)
 
+13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
+
+Sort by CPU using:
+
+![image](https://user-images.githubusercontent.com/97533533/162704569-63c82ce3-df9d-4f00-84ac-e80a1e5c0955.png)
+
+Sort by Memory using:
+
+![image](https://user-images.githubusercontent.com/97533533/162704331-5290673a-11fd-460c-8b03-cc0bfb915e3c.png)
+
+Sort by PID using:
+
+![image](https://user-images.githubusercontent.com/97533533/162704947-7527e894-d492-49f1-9f37-ce7859cefce1.png)
+
+Sort by SWAP using:
+
+![image](https://user-images.githubusercontent.com/97533533/162705283-2cd60a1b-dfac-4f9f-8e7a-bca385621c2c.png)
+
+14. Concept of priority, what commands are used to set priority?
+
+Process priority, like in an others OS, in Linux - is how many CPU time will be given for process compared to others. Priority have a value from 19 (the lowest priority) to -20 (the highest priority), moreover for decrease the priority you can use a regular user, but for increase - must have a superuser rights.
+For control process priority we can use following commands:
+
+set priority for launched process; nice Example - nice -n 17 apt update; renice - set priority for existing process, to indicate the process we must use PID; Example - sudo renice -n -2 -p 858.
+
+![image](https://user-images.githubusercontent.com/97533533/162707362-cb0977e1-0453-4100-a934-f207df25bb8b.png)
+
+15. Can I change the priority of a process using the top command? If so, how?
+
+We can chenge pritoty in TOP with a "r" key:
+
+![image](https://user-images.githubusercontent.com/97533533/162708424-edb941d6-274f-4cc9-9d32-44112bda94e3.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162708508-3a9170bf-87aa-4413-b76b-ae80b1a3ddde.png)
+
+16. Examine the kill command. How to send with the kill command process control signal? Give an example of commonly used signals.
+
+![image](https://user-images.githubusercontent.com/97533533/162708905-e39c978a-47c6-4de5-b36a-d366beeb7f21.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162708981-79aa9d2c-3734-408e-b7b9-79f9e1388111.png)
 
 
 
