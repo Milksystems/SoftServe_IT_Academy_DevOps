@@ -184,7 +184,9 @@ scp and sftp to securely copy public key files the first time you use the server
 
 4. Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.
 
+![image](https://user-images.githubusercontent.com/97533533/162722767-755a7461-6297-48c4-a705-e13500abd203.png)
 
+5. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.
 
 
 
