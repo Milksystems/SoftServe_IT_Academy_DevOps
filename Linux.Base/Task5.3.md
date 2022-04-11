@@ -115,6 +115,89 @@ We can chenge pritoty in TOP with a "r" key:
 
 ![image](https://user-images.githubusercontent.com/97533533/162708981-79aa9d2c-3734-408e-b7b9-79f9e1388111.png)
 
+kill -s SIGSTOP 892 - process kill sudo su
+
+![image](https://user-images.githubusercontent.com/97533533/162711189-f45a0255-dc2f-4ffd-a6fd-812ac501fb76.png)
+
+kill -s SIGCONT 892 - process sudo su
+
+![image](https://user-images.githubusercontent.com/97533533/162711445-d9764f32-b9ea-4233-9a31-9eb30ac5ae77.png)
+
+17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to demonstrate the process control mechanism with fg, bg.
+
+jobs - allows to see whats commands is in our session3; 
+
+fg - let to bring command from background to foreground; 
+
+bg - allows to push command from foreground to background; 
+
+nohup - let to save started process after closing terminal session.
+
+![image](https://user-images.githubusercontent.com/97533533/162712535-065d6487-b3b9-47d8-99fa-1cddc3e0926b.png)
+
+PART2
+
+1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands +
+screenshots: command – result should be presented)
+
+DIR - displaying a list of files and directories;
+
+CD - directory change;
+
+MD - creating a new directory;
+
+RMDIR - deleting a directory.
+
+![image](https://user-images.githubusercontent.com/97533533/162713574-0f9c7b99-3b91-462e-9601-498d2d15a483.png)
+
+![image](https://user-images.githubusercontent.com/97533533/162713718-009af691-0c70-4bca-bde7-ee54e032a0c3.png)
+
+2. Implement basic SSH settings to increase the security of the client-server connection.
+
+Through a text editor, for example, vim, emacs, nano, open the /etc/ssh/sshd_config file and transfer the main recommendations to it. Due to the security concerns of SSH connections, the following options can be retrieved:
+
+PermitRootLogin;
+
+AllowUsers, AllowGroups;
+
+DenyUsers, DenyGroups;
+
+Port;
+
+ListenAddress;
+
+Login GraceTime;
+
+ClientAliveInterval;
+
+HostbasedAuthentication.
+
+3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
+
+ssh-keygen to generate secure keys;
+
+ssh-agent and ssh-add for secure storage of private keys;
+
+scp and sftp to securely copy public key files the first time you use the server.
+
+![image](https://user-images.githubusercontent.com/97533533/162715306-2cb093a9-65a6-4d97-9634-4b04a5c450df.png)
+
+4. Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
