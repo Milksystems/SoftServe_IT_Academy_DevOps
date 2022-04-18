@@ -20,3 +20,43 @@ Let's add some configs to file /etc/dnsmasq.conf
 
 sudo vi /etc/dnsmasq. cont
 
+![image](https://user-images.githubusercontent.com/97533533/163823918-4da8981c-94bb-48e0-ab64-809b4a84af75.png)
+
+![image](https://user-images.githubusercontent.com/97533533/163823984-99e68944-11cd-42d3-ba33-b729d72aef5a.png)
+
+After let's create directory, leases-file and stop service who may be conflict with DNSMASQ and start it:
+
+sudo mkdir /var/1ib/dnsmasq
+
+sudo touch /var/1ib/dnsmasq/dnsmasq. lease: sudo systemctl disable systend-resolve: sudo systemctl mask systend-resolved sudo systemctl stop systend-resolved
+
+sudo systemct] start dnsmasq sudo systemct1 status dnsmasq
+
+Also let's to add iptables rule to forward SSH from host to VM3:
+
+sudo iptables -t nat A PREROUTING -i enp@s3 -p tep --dport 2224 -j DNAT --to-destinatior 192.168.1.20:22
+
+![image](https://user-images.githubusercontent.com/97533533/163824144-cc351846-fb59-4ac4-abfe-b87470e81fae.png)
+
+3. Check VM2 and VM3 for obtaining network addresses from DHCP server.
+
+sudo vim /etc/netplan/@1-network-manager-all.yaml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
